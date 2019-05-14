@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Elba automation" verbose="2" parallel="false" >
+    <test name="Bank account statement">
+        <classes>
+            <class name="ru.kontur.test.payments.Import" />
+        </classes>
+    </test>
+</suite>
